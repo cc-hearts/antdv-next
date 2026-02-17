@@ -20,6 +20,15 @@ async function flushTooltipTimer() {
   await waitFakeTimer(150, 10)
 }
 
+function getTooltipSnapshotContainer(triggerElement: Element, tooltipElement?: Element | null) {
+  const snapshotContainer = document.createElement('div')
+  snapshotContainer.appendChild(triggerElement.cloneNode(true))
+  if (tooltipElement) {
+    snapshotContainer.appendChild(tooltipElement.cloneNode(true))
+  }
+  return snapshotContainer
+}
+
 interface TriggerTarget {
   trigger: (name: string) => Promise<any>
   element?: Element
@@ -566,12 +575,11 @@ describe('tooltip', () => {
   })
 
   it('support arrow props pass false to hide arrow', async () => {
-    mount(Tooltip, {
+    const wrapper = mount(Tooltip, {
       attachTo: document.body,
       props: {
         open: true,
         arrow: false,
-        title: 'arrow',
       },
       slots: {
         default: () => <div class="target">target</div>,
@@ -579,15 +587,17 @@ describe('tooltip', () => {
     })
 
     await flushTooltipTimer()
+    const tooltip = document.querySelector<HTMLElement>('.ant-tooltip')
+    expect(tooltip).not.toBeNull()
+    expect(getTooltipSnapshotContainer(wrapper.element, tooltip)).toMatchSnapshot()
     expect(document.querySelector('.ant-tooltip-arrow')).toBeNull()
   })
 
   it('support arrow props by default', async () => {
-    mount(Tooltip, {
+    const wrapper = mount(Tooltip, {
       attachTo: document.body,
       props: {
         open: true,
-        title: 'arrow',
       },
       slots: {
         default: () => <div class="target">target</div>,
@@ -595,6 +605,9 @@ describe('tooltip', () => {
     })
 
     await flushTooltipTimer()
+    const tooltip = document.querySelector<HTMLElement>('.ant-tooltip')
+    expect(tooltip).not.toBeNull()
+    expect(getTooltipSnapshotContainer(wrapper.element, tooltip)).toMatchSnapshot()
     expect(document.querySelector('.ant-tooltip-arrow')).not.toBeNull()
   })
 
