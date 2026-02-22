@@ -93,8 +93,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
                   <!---->
                   <!---->
                   <!---->
-                  <!---->
-                  <!---->
                 </h5>
                 <span
                   class="ant-tag ant-tag-filled ant-tag-blue css-var-root"
@@ -192,8 +190,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
               <!---->
               <!---->
               <!---->
-              <!---->
-              <!---->
             </div>
           </div>
         </li>
@@ -219,8 +215,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
                   style="margin: 0px;"
                 >
                   panel
-                  <!---->
-                  <!---->
                   <!---->
                   <!---->
                   <!---->
@@ -324,8 +318,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
               <!---->
               <!---->
               <!---->
-              <!---->
-              <!---->
             </div>
           </div>
         </li>
@@ -351,8 +343,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
                   style="margin: 0px;"
                 >
                   dragger
-                  <!---->
-                  <!---->
                   <!---->
                   <!---->
                   <!---->
@@ -456,8 +446,6 @@ exports[`splitter demo > renders _semantic correctly 1`] = `
               <!---->
               <!---->
               <!---->
-              <!---->
-              <!---->
             </div>
           </div>
         </li>
@@ -494,8 +482,6 @@ exports[`splitter demo > renders collapsible correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -528,8 +514,6 @@ exports[`splitter demo > renders collapsible correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -565,8 +549,6 @@ exports[`splitter demo > renders collapsible correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -599,8 +581,6 @@ exports[`splitter demo > renders collapsible correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -711,8 +691,6 @@ exports[`splitter demo > renders collapsibleIcon correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -745,8 +723,6 @@ exports[`splitter demo > renders collapsibleIcon correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -791,8 +767,6 @@ exports[`splitter demo > renders collapsibleIcon correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -823,8 +797,6 @@ exports[`splitter demo > renders control correctly 1`] = `
           style="white-space: nowrap;"
         >
            First 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -863,8 +835,6 @@ exports[`splitter demo > renders control correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -955,8 +925,6 @@ exports[`splitter demo > renders group correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1002,8 +970,6 @@ exports[`splitter demo > renders group correctly 1`] = `
               <!---->
               <!---->
               <!---->
-              <!---->
-              <!---->
             </h5>
           </div>
         </div>
@@ -1036,8 +1002,6 @@ exports[`splitter demo > renders group correctly 1`] = `
               style="white-space: nowrap;"
             >
                Bottom 
-              <!---->
-              <!---->
               <!---->
               <!---->
               <!---->
@@ -1088,8 +1052,6 @@ exports[`splitter demo > renders lazy correctly 1`] = `
             <!---->
             <!---->
             <!---->
-            <!---->
-            <!---->
           </h5>
         </div>
       </div>
@@ -1125,8 +1087,6 @@ exports[`splitter demo > renders lazy correctly 1`] = `
             style="white-space: nowrap;"
           >
              Second 
-            <!---->
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1167,8 +1127,6 @@ exports[`splitter demo > renders lazy correctly 1`] = `
             <!---->
             <!---->
             <!---->
-            <!---->
-            <!---->
           </h5>
         </div>
       </div>
@@ -1204,8 +1162,6 @@ exports[`splitter demo > renders lazy correctly 1`] = `
             style="white-space: nowrap;"
           >
              Second 
-            <!---->
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1250,8 +1206,6 @@ exports[`splitter demo > renders multiple correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1290,8 +1244,6 @@ exports[`splitter demo > renders multiple correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1324,8 +1276,6 @@ exports[`splitter demo > renders multiple correctly 1`] = `
           style="white-space: nowrap;"
         >
            Panel 3 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1480,8 +1430,6 @@ exports[`splitter demo > renders nested-in-tabs correctly 1`] = `
                 <!---->
                 <!---->
                 <!---->
-                <!---->
-                <!---->
               </h5>
             </div>
           </div>
@@ -1520,8 +1468,6 @@ exports[`splitter demo > renders nested-in-tabs correctly 1`] = `
                 <!---->
                 <!---->
                 <!---->
-                <!---->
-                <!---->
               </h5>
             </div>
           </div>
@@ -1554,8 +1500,6 @@ exports[`splitter demo > renders nested-in-tabs correctly 1`] = `
                 style="white-space: nowrap;"
               >
                  3 
-                <!---->
-                <!---->
                 <!---->
                 <!---->
                 <!---->
@@ -1601,8 +1545,6 @@ exports[`splitter demo > renders reset correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1635,8 +1577,6 @@ exports[`splitter demo > renders reset correctly 1`] = `
           style="white-space: nowrap;"
         >
            Panel 2 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1681,8 +1621,6 @@ exports[`splitter demo > renders reset correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1713,8 +1651,6 @@ exports[`splitter demo > renders size correctly 1`] = `
           style="white-space: nowrap;"
         >
            First 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1753,8 +1689,6 @@ exports[`splitter demo > renders size correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1837,8 +1771,6 @@ exports[`splitter demo > renders size-mix correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1871,8 +1803,6 @@ exports[`splitter demo > renders size-mix correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1917,8 +1847,6 @@ exports[`splitter demo > renders size-mix correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -1951,8 +1879,6 @@ exports[`splitter demo > renders style-class correctly 1`] = `
           style="color: rgb(0, 0, 0);"
         >
            First 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -1999,8 +1925,6 @@ exports[`splitter demo > renders style-class correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -2024,8 +1948,6 @@ exports[`splitter demo > renders style-class correctly 1`] = `
           class="ant-typography ant-typography-secondary css-var-root"
         >
            First 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -2064,8 +1986,6 @@ exports[`splitter demo > renders style-class correctly 1`] = `
           class="ant-typography ant-typography-secondary css-var-root"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
@@ -2108,8 +2028,6 @@ exports[`splitter demo > renders vertical correctly 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
         </h5>
       </div>
     </div>
@@ -2142,8 +2060,6 @@ exports[`splitter demo > renders vertical correctly 1`] = `
           style="white-space: nowrap;"
         >
            Second 
-          <!---->
-          <!---->
           <!---->
           <!---->
           <!---->
