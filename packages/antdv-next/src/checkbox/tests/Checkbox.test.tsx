@@ -93,7 +93,6 @@ describe('checkbox', () => {
     expect(onUpdateChecked).toHaveBeenCalled()
   })
 
-  // checked 为 undefined 时 组件内部控制状态
   it('should manage checked state internally when checked is undefined', async () => {
     const wrapper = mount(Checkbox, {
       props: {
