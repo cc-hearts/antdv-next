@@ -88,7 +88,6 @@ describe('checkbox', () => {
     input.checked = false
     await wrapper.find('input').trigger('change')
     await nextTick()
-    await nextTick()
 
     expect(wrapper.find('.ant-checkbox-wrapper-checked').exists()).toBe(true)
     expect(onUpdateChecked).toHaveBeenCalled()
